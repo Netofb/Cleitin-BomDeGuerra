@@ -1,0 +1,39 @@
+.header{
+  position: relative;
+  display: flex;
+  margin: 2rem auto;
+  justify-content: space-between;
+  max-width: 1400px;
+  flex-wrap: wrap;
+  
+}
+.header nav ul{
+display: flex;
+gap: 2rem;
+
+}
+
+.Header-links{
+  color: #FFFFFF;
+}
+.Header-button{
+color: #16161A;
+padding: 10px 20px;
+background-color: #5092D2;
+font-weight: 600;
+border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
