@@ -21,10 +21,12 @@
         <img src="./img/739f1fbb30565e9cb1d880ad91447c5e 1.svg" alt="Logo" >
         </div>
         <div>
-          <img src="./img/Vector.svg" alt="simbolo">
+          <img class="simbolo" src="./img/Vector.svg" alt="simbolo">
         </div>
-        <nav>
-          <ul>
+        <nav id="nav" class="nav">
+          <button id="btn-mobile">Menu</button>
+          <span id="hamburger"></span>
+          <ul class="header-menu" id="menu">
             <li><a href="#" class="Header-links">Vídeos e Telas</a></li>
             <li><a href="#" class="Header-links">Bastidores</a></li>
             <li><a href="#" class="Header-links">Comunidade</a></li>
@@ -32,7 +34,9 @@
           </ul>
         </nav>
       </header>
-  <main class="main js-scroll">
+
+                                        <!-- Main -->
+  <main class="main">
     <article>
     <section class="textos-main ">
       <p>Um mundo mais sombrio e primitivo</p>
@@ -44,7 +48,7 @@
       <img src="./img/herois-header.png" alt="" class="herois">
     </div>
     <div class="video-main">
-     <iframe width="305" height="182" src="https://www.youtube.com/embed/freIrlMwBks?start=2?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <iframe width="305" height="182" src="https://www.youtube.com/embed/freIrlMwBks?start=2?" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     </article>
   </main>   
@@ -55,7 +59,7 @@
                                    <div class="introducao-carrosel">Os maiores heróis dos Noves Reinos</div>
 <section class="carrosel js-scroll" >
      <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
-    slides-per-view="3" navigation="true">
+    slides-per-view="1" navigation="true">
 
     <section class="swiper-slide ">
     <div class="card">
@@ -101,6 +105,10 @@
       </div>         
     </div>       
 </section>
+
+                                  <!-- Main 2  -->
+
+
 <section class="second-main js-scroll">
   <div class="second-main-img">
     <img class="imgs-main" src="./img/01.png" alt="">
